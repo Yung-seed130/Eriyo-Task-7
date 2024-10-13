@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cozy Place Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo"><span class="space">D</span>Anke Schon</div>
+            <nav>
+                <ul>
+                    <li><a href="#">Search</a></li>
+                    <li><a href="#">To Offer</a></li>
+                    <li><a href="#">Move</a></li>
+                    <li><a href="#">Insurance</a></li>
+                    <li><a href="#">Place an Ad</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div class="main-banner">
+            <h1>Find your next best cozy place</h1>
+            <p>Find the best places around you at the cheapest and affordable prices.</p>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+            <div class="search-container">
+                <div class="filters">
+                    <div class="filter-item">
+                        <label for="rent">Rent/Buy</label>
+                        <select id="rent">
+                            <option value="rent">Rent</option>
+                            <option value="buy">Buy</option>
+                        </select>
+                    </div>
+                    <div class="filter-item">
+                        <label for="location">Location</label>
+                        <input type="text" id="location" placeholder="Your desired location here">
+                    </div>
+                    <div class="filter-item">
+                        <label for="property-type">Property Type</label>
+                        <select id="property-type">
+                            <option value="house">House</option>
+                            <option value="apartment">Apartment</option>
+                        </select>
+                    </div>
+                    <div class="filter-item">
+                        <label for="rooms">Rooms</label>
+                        <select id="rooms">
+                            <option value="1">1 Room</option>
+                            <option value="2">2 Rooms</option>
+                            <option value="3">3 Rooms</option>
+                        </select>
+                    </div>
+                    <div class="filter-item">
+                        <label for="price-range">Price Range</label>
+                        <input type="range" id="price-range" min="1000" max="20000" value="4600">
+                        <div class="range-labels">
+                            <span id="min-price">$1000</span>
+                            <span id="max-price">$20000</span>
+                        </div>
+                    </div>
+                </div>
+                <button id="search">Search</button>
+        </div>
+        
+        <div class="featured">
+            <div class="card">
+                <img src="./images/Group 4.png" alt="3BHK at Georgia front tower">
+                <h3>3BHK at Georgia front tower</h3>
+                <div class="price">$34,200</div>
+            </div>
+        </div>
+
+</body>
+</html>
